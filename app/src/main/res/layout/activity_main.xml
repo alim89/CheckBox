@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.example.a20140550.checkbox.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titletext"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+
+        />
+    <CheckBox
+        android:id="@+id/IDmilk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/milktext"
+
+        /> <CheckBox
+        android:id="@+id/IDsugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/sugartext"
+
+        /> <CheckBox
+        android:id="@+id/IDwater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/watertext"
+
+        /> <CheckBox
+        android:id="@+id/IDbanana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="@string/bananatext"
+
+        />
+    <Button
+        android:id="@+id/buttonshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/buttontext"
+        android:textSize="10sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="@string/textbox"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
